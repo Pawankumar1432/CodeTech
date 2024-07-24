@@ -7,6 +7,7 @@ import pandas as pd
 
 # Importing datasets
 data=pd.read_csv('Data.csv')
+# Split the dataset into features (X) and target variable (y)
 x=data.iloc[:,:-1].values
 y=data.iloc[:,-1].values
 
